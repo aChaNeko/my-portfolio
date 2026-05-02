@@ -1,0 +1,18 @@
+/* 共通 */
+body{
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+}
+.sp-only{
+  display: none;
+}
+.pc-only{
+  display: block;
+}
+@media (max-width: 768px){
+  .sp-only{
+    display: block;
+  }
+  .pc-only{
+    display: none;
+  }
+}

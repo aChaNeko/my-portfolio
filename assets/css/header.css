@@ -1,0 +1,118 @@
+.header{
+  position: fixed;
+  width: 100%;
+  background-color: rgba(248,249,251,0.8);
+  border-bottom: 1px solid rgba(26,26,26,0.12);
+}
+.header-wrap{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 120px;
+}
+.header-title{
+  font-size: 24px;
+  line-height: 32px;
+  color: #B8860B;
+  letter-spacing: -0.6px;
+}
+.header-nav-list{
+  display: flex;
+  gap: 24px;
+}
+.header-nav-item{
+  display: block;
+  background-color: rgba(26,26,26,0);
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px 12px;
+  border-radius: 5px;
+  transition: all .3s;
+}
+.header-nav-item:hover{
+  color: #B8860B;
+}
+.header-nav-item.is-selected{
+  background-color: rgba(26,26,26,1);
+  color: #fff;
+}
+
+@media (max-width: 768px){
+  .header-wrap{
+    padding: 14px 32px 0;
+    flex-direction: column;
+    align-items: start;
+  }
+  .header-title{
+    margin-bottom: 14px;
+    display: block;
+  }
+  .header-nav-list{
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 0;
+    max-height: 0;
+    transition: all .5s;
+  }
+  .header-nav-list.is-open{
+    max-height: 220px;
+    padding-bottom: 14px;
+  }
+  .header-nav-item{
+    padding: 0;
+    opacity: 0;
+    transition: all 1s;
+  }
+  .header-nav-list.is-open .header-nav-item{
+    opacity: 1;
+  }
+  .header-nav-item.is-selected{
+  background-color: rgba(26,26,26,0);
+  color: #1a1a1a;
+}
+}
+
+
+/*************************************/
+/* ハンバーガーメニュー */
+/*************************************/
+.hamburger-wrap{
+  position: absolute;
+  top: 23px;
+  right: 32px;
+  width: 16px;
+  height: 14px;
+  cursor: pointer;
+}
+.hamburger-wrap span{
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #1a1a1a;
+  position: absolute;
+  transition: all .3s;
+}
+.hamburger-wrap span:nth-child(1){
+  top: 0;
+}
+.hamburger-wrap span:nth-child(2){
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.hamburger-wrap span:nth-child(3){
+  bottom: 0;
+}
+.hamburger-wrap.is-open span:nth-child(1){
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+.hamburger-wrap.is-open span:nth-child(2){
+  opacity: 0;
+}
+.hamburger-wrap.is-open span:nth-child(3){
+  bottom: 50%;
+  transform: translateY(50%) rotate(45deg);
+}

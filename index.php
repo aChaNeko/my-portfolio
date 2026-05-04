@@ -18,7 +18,7 @@
 
 <!-- ABOUT -->
 <section class="about" id="about">
-  <div class="section-inner inner-about">
+  <div class="section-inner">
     <div class="section-content-wrap">
       <div class="section-title-wrap">
         <div class="section-subtitle-wrap">
@@ -92,6 +92,98 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- WORSK -->
+<section class="works" id="works">
+  <div class="section-inner">
+    <div class="archive-title-wrap">
+      <div class="section-title-wrap">
+        <div class="section-subtitle-wrap">
+          <div class="section-subtitle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_title.png" alt="タイトルロゴ"></div>
+          <p class="section-subtitle">WORKS</p>
+        </div>
+        <h2 class="section-title">私の作品</h2>
+      </div>
+      <a href="#" class="archive-link-btn">すべて見る</a>
+    </div>
+    <ul class="works-list">
+      <li>
+        <a href="#" class="works-item">
+          <div class="works-item-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/device_mockup.png" alt="丸富庵清月"></div>
+          <p class="works-part">Web Design, Development</p>
+          <h3 class="works-client">丸富庵清月</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="works-item">
+          <div class="works-item-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/device_mockup.png" alt="丸富庵清月"></div>
+          <p class="works-part">Web Design, Development</p>
+          <h3 class="works-client">丸富庵清月</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="works-item">
+          <div class="works-item-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/device_mockup.png" alt="丸富庵清月"></div>
+          <p class="works-part">Web Design, Development</p>
+          <h3 class="works-client">丸富庵清月</h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="blog" id="blog">
+  <div class="section-inner">
+    <div class="archive-title-wrap">
+      <div class="section-title-wrap">
+        <div class="section-subtitle-wrap">
+          <div class="section-subtitle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_title.png" alt="タイトルロゴ"></div>
+          <p class="section-subtitle">BLOG</p>
+        </div>
+        <h2 class="section-title">お知らせ</h2>
+      </div>
+      <a href="#" class="archive-link-btn">すべて見る</a>
+    </div>
+    <ul class="blog-list">
+      <li>
+        <a href="" class="blog-item">
+          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
+          <p class="blog-title">2024年のデザイントレンド</p>
+          <div class="blog-genre"><span>Design</span></div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="blog-item">
+          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
+          <p class="blog-title">2024年のデザイントレンド</p>
+          <div class="blog-genre"><span>Design</span></div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="blog-item">
+          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
+          <p class="blog-title">2024年のデザイントレンド</p>
+          <div class="blog-genre"><span>Design</span></div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="blog-item">
+          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
+          <p class="blog-title">2024年のデザイントレンド</p>
+          <div class="blog-genre"><span>Design</span></div>
+        </a>
+      </li>
+      <li>
+        <a href="" class="blog-item">
+          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
+          <p class="blog-title">2024年のデザイントレンド</p>
+          <div class="blog-genre"><span>Design</span></div>
+        </a>
+      </li>
+    </ul>
   </div>
 </section>
 

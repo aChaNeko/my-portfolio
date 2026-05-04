@@ -34,11 +34,11 @@
       <p><a href="<?php echo home_url(); ?>" class="header-title">Portfolio</a></p>
       <nav class="header-nav">
         <ul class="header-nav-list">
-          <li><a href="#" class="header-nav-item nav-top is-selected">Top</a></li>
-          <li><a href="#" class="header-nav-item nav-about">About</a></li>
-          <li><a href="#" class="header-nav-item nav-works">Works</a></li>
-          <li><a href="#" class="header-nav-item nav-blog">Blog</a></li>
-          <li><a href="#" class="header-nav-item nav-contact">Contact</a></li>
+          <li><a href="#top" class="header-nav-item nav-top is-selected">Top</a></li>
+          <li><a href="#about" class="header-nav-item nav-about">About</a></li>
+          <li><a href="#works" class="header-nav-item nav-works">Works</a></li>
+          <li><a href="#news" class="header-nav-item nav-blog">News</a></li>
+          <li><a href="#contact" class="header-nav-item nav-contact">Contact</a></li>
         </ul>
       </nav>
     </div>

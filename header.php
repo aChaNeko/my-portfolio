@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/header.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/footer.css">
 
   <!-- JS -->
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>

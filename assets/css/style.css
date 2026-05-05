@@ -115,7 +115,7 @@ body{
 /*************************************/
 .top{
   width: 100%;
-  height: calc(100vh + 64px);
+  height: calc(100vh + 3vh);
   position: relative;
   background-color: #F8F9FB;
   overflow: hidden;
@@ -218,6 +218,9 @@ body{
 /* TOP（スマホ） */
 /*************************************/
 @media (max-width: 768px){
+  .top{
+    height: calc(100vh + 2vh);
+  }
   .top-content-wrap{
     margin-bottom: 120px;
   }

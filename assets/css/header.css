@@ -50,6 +50,9 @@
     margin-bottom: 14px;
     display: block;
   }
+  .header-nav{
+    width: 100%;
+  }
   .header-nav-list{
     flex-direction: column;
     overflow: hidden;

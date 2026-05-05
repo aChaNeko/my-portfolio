@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
   const hamburgerBtn = document.querySelector('.hamburger-wrap');
   const navList = document.querySelector('.header-nav-list');
-  const navItem = document.querySelector('.header-nav-item');
+  const navItems = document.querySelectorAll('.header-nav-item');
 
   // ボタン押下時にメニューを開閉
   if (hamburgerBtn && navList) {
@@ -13,12 +13,14 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // ナビ選択時にもメニューを閉じる
-  if (navItem) {
-    navItem.addEventListener('click', () => {
+  if (navItems.length > 0) {
+  navItems.forEach(item => {
+    item.addEventListener('click', () => {
       hamburgerBtn.classList.remove('is-open');
       navList.classList.remove('is-open');
     });
-  }
+  });
+}
 
   // 現在位置に応じて選択クラスを付け替え
 

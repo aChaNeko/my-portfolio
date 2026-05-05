@@ -297,6 +297,43 @@
   </div>
 </section>
 
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="section-title-wrap">
+      <div class="section-subtitle-wrap">
+        <div class="section-subtitle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_title.png" alt="タイトルロゴ"></div>
+        <p class="section-subtitle">CONTACT</p>
+      </div>
+      <h2 class="section-title">お問い合わせ</h2>
+      <p class="section-txt">Web制作のご依頼やお見積りなど<br class="sp-only">お気軽にご相談ください。</p>
+    </div>
+    <form action="" class="contact-form" method="post">
+      <div class="form-field">
+        <label for="company">貴社名</label>
+        <input type="text" id="company" name="company" placeholder="株式会社サンプル">
+      </div>
+
+      <div class="form-field">
+        <label for="name">お名前 <span>*</span></label>
+        <input type="text" id="name" name="name" placeholder="山田 太郎" required>
+      </div>
+
+      <div class="form-field">
+        <label for="email">メールアドレス <span>*</span></label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+      </div>
+
+      <div class="form-field">
+        <label for="message">ご依頼内容 / ご希望内容 <span>*</span></label>
+        <textarea id="message" name="message" placeholder="ご依頼内容やご希望内容をご記入ください" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-button">お問い合わせを送信</button>
+    </form>
+  </div>
+</section>
+
 
 
 <?php get_footer(); ?>

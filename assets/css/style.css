@@ -105,6 +105,7 @@ body{
   }
   .section-title{
     font-size: 36px;
+    line-height: 48px;
   }
 }
 
@@ -660,5 +661,107 @@ body{
   }
   .workflow-title{
     margin-bottom: 8px;
+  }
+}
+
+
+/*************************************/
+/* CONTACT */
+/*************************************/
+.contact{
+  background-color: #F8F9FB;
+}
+#contact .section-title-wrap{
+  text-align: center;
+  margin-bottom: 42px;
+}
+#contact .section-subtitle-wrap{
+  justify-content: center;
+}
+#contact .section-title{
+  margin-bottom: 24px;
+}
+#contact .section-txt{
+  font-size: 18px;
+  line-height: 28px;
+  color: #666;
+}
+.contact-form{
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+.form-field{
+  margin-bottom: 24px;
+}
+.form-field label{
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  font-weight: 550;
+}
+.form-field label span{
+  color: #D4183D;
+}
+.form-field input,
+.form-field textarea{
+  width: 100%;
+  border: 1px solid rgba(26,26,26,0.12);
+  background-color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  transition: all .3s;
+}
+.form-field input:focus,
+.form-field textarea:focus{
+  outline: none;
+  border: 1px solid #B8860B;
+}
+.form-field textarea{
+  min-height: 170px;
+  resize: vertical;
+}
+.form-field input::placeholder,
+.form-field textarea::placeholder{
+  color: rgba(26,26,26,0.5);
+}
+.submit-button{
+  display: flex;
+  margin: 40px auto 0;
+  padding: 16px 36px;
+  background-color: #B8860B;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 8px;
+  align-items: center;
+  opacity: 1;
+  transition: all .3s;
+}
+.submit-button:hover{
+  opacity: .8;
+}
+.submit-button::before{
+  content: "";
+  width: 18px;
+  height: 18px;
+  display: block;
+  background-image: url(../img/icon_send.png);
+  background-size: contain;
+}
+
+
+
+/*************************************/
+/* CONTACT（スマホ） */
+/*************************************/
+@media (max-width: 768px){
+  #contact .section-title-wrap{
+    margin-bottom: 24px;
+  }
+  #contact .section-title{
+    margin-bottom: 10px;
   }
 }

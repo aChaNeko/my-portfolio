@@ -187,6 +187,116 @@
   </div>
 </section>
 
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="section-inner">
+    <div class="section-title-wrap">
+      <div class="section-subtitle-wrap">
+        <div class="section-subtitle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_title.png" alt="タイトルロゴ"></div>
+        <p class="section-subtitle">SKILLS</p>
+      </div>
+      <h2 class="section-title">使用ツール</h2>
+    </div>
+    <ul class="skills-list">
+      <li class="skills-item">
+        <div class="skills-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_file.png" alt="HTML / CSS"></div>
+        <p class="skills-txt">HTML / CSS</p>
+      </li>
+      <li class="skills-item">
+        <div class="skills-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_script.png" alt="JavaScript"></div>
+        <p class="skills-txt">JavaScript</p>
+      </li>
+      <li class="skills-item">
+        <div class="skills-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_skill.png" alt="PHP"></div>
+        <p class="skills-txt">PHP</p>
+      </li>
+      <li class="skills-item">
+        <div class="skills-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_box.png" alt="WordPress"></div>
+        <p class="skills-txt">WordPress</p>
+      </li>
+      <li class="skills-item">
+        <div class="skills-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_code.png" alt="Python"></div>
+        <p class="skills-txt">Python</p>
+      </li>
+      <li class="skills-item">
+        <div class="skills-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_figma.png" alt="Figma"></div>
+        <p class="skills-txt">Figma</p>
+      </li>
+      <li class="skills-item">
+        <div class="skills-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_skill.png" alt="Visual Studio Code"></div>
+        <p class="skills-txt">Visual Studio Code</p>
+      </li>
+      <li class="skills-item">
+        <div class="skills-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_folder.png" alt="FileZilla"></div>
+        <p class="skills-txt">FileZilla</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- WORK FLOW -->
+<section class="workflow" id="workflow">
+  <div class="section-inner">
+    <div class="section-title-wrap">
+      <div class="section-subtitle-wrap">
+        <div class="section-subtitle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_title.png" alt="タイトルロゴ"></div>
+        <p class="section-subtitle">WORK FLOW</p>
+      </div>
+      <h2 class="section-title">全体の流れ</h2>
+    </div>
+    <ul class="workflow-list">
+      <li class="workflow-item">
+        <div class="workflow-num-wrap">
+          <p class="workflow-num">01</p>
+          <div class="workflow-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_hearing.png" alt="ヒアリング"></div>
+        </div>
+        <h3 class="workflow-title">ヒアリング</h3>
+        <p class="workflow-text">お客様のビジョンや課題を深く理解し、プロジェクトの方向性を定めます。</p>
+      </li>
+      <li class="workflow-item">
+        <div class="workflow-num-wrap">
+          <p class="workflow-num">02</p>
+          <div class="workflow-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_plan.png" alt="企画・設計"></div>
+        </div>
+        <h3 class="workflow-title">企画・設計</h3>
+        <p class="workflow-text">要件定義から情報設計、ワイヤーフレーム作成まで丁寧に進めます。</p>
+      </li>
+      <li class="workflow-item">
+        <div class="workflow-num-wrap">
+          <p class="workflow-num">03</p>
+          <div class="workflow-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_designing.png" alt="デザイン制作"></div>
+        </div>
+        <h3 class="workflow-title">デザイン制作</h3>
+        <p class="workflow-text">ブランドの世界観を表現し、ユーザー体験を最適化したデザインを制作します。</p>
+      </li>
+      <li class="workflow-item">
+        <div class="workflow-num-wrap">
+          <p class="workflow-num">04</p>
+          <div class="workflow-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_development.png" alt="開発・実装"></div>
+        </div>
+        <h3 class="workflow-title">開発・実装</h3>
+        <p class="workflow-text">最新の技術を活用し、高品質なコードで実装します。</p>
+      </li>
+      <li class="workflow-item">
+        <div class="workflow-num-wrap">
+          <p class="workflow-num">05</p>
+          <div class="workflow-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_test.png" alt="テスト・納品"></div>
+        </div>
+        <h3 class="workflow-title">テスト・納品</h3>
+        <p class="workflow-text">動作のテストを行い、品質を保証した上で納品します。</p>
+      </li>
+      <li class="workflow-item">
+        <div class="workflow-num-wrap">
+          <p class="workflow-num">06</p>
+          <div class="workflow-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon_support.png" alt="運用・サポート"></div>
+        </div>
+        <h3 class="workflow-title">運用・サポート</h3>
+        <p class="workflow-text">納品後も継続的なサポートで、プロジェクトの成功をサポートします。</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
 
 
 <?php get_footer(); ?>

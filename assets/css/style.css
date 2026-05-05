@@ -542,3 +542,123 @@ body{
     width: 100%;
   }
 }
+
+
+/*************************************/
+/* SKILLS */
+/*************************************/
+.skills{
+  background-color: #F8F9FB;
+}
+.skills-list{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+.skills-item{
+  border: 1px solid rgba(26,26,26,0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+  padding: 24px 0;
+}
+.skills-img{
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  background-color: rgba(184,134,11,0.1);
+}
+.skills-txt{
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+}
+
+
+/*************************************/
+/* SKILLS（スマホ） */
+/*************************************/
+@media (max-width: 768px){
+  #skills .section-title-wrap{
+    margin-bottom: 24px;
+  }
+  .skills-list{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .skills-item{
+    padding: 16px 0;
+  }
+}
+
+
+/*************************************/
+/* WORK FLOW（スマホ） */
+/*************************************/
+.workflow-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.workflow-item{
+  padding: 24px;
+  border: 1px solid rgba(26,26,26,0.12);
+}
+.workflow-num-wrap{
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.workflow-num{
+  font-size: 30px;
+  line-height: 36px;
+  color: rgba(184,134,11,0.3);
+  font-weight: 550;
+}
+.workflow-img{
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  background-color: rgba(184,134,11,0.1);
+}
+.workflow-title{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 550;
+  margin-bottom: 12px;
+}
+.workflow-text{
+  font-size: 14px;
+  line-height: 24px;
+  min-height: 48px;
+  color: #666;
+}
+
+
+/*************************************/
+/* WORK FLOW（スマホ） */
+/*************************************/
+@media (max-width: 768px){
+  #workflow .section-title-wrap{
+    margin-bottom: 24px;
+  }
+  .workflow-list{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .workflow-item{
+    padding: 16px;
+  }
+  .workflow-num-wrap{
+    margin-bottom: 12px;
+  }
+  .workflow-img{
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+  }
+  .workflow-title{
+    margin-bottom: 8px;
+  }
+}

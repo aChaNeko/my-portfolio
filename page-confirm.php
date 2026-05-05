@@ -14,32 +14,30 @@
       <h2 class="section-title">お問い合わせ</h2>
       <p class="section-txt">Web制作のご依頼やお見積りなど<br class="sp-only">お気軽にご相談ください。</p>
     </div>
-    <form action="" class="contact-form" method="post">
+    <div class="contact-form">
       <div class="form-field">
-        <label for="company">貴社名</label>
-        <input type="text" id="company" name="company" placeholder="株式会社サンプル">
+        <p class="form-label">貴社名</p>
+        <p class="form-text" id="company" name="company"></p>
       </div>
 
       <div class="form-field">
-        <label for="name">お名前 <span>*</span></label>
-        <input type="text" id="name" name="name" placeholder="山田 太郎" required>
+        <p class="form-label">お名前 <span>*</span></p>
+        <p class="form-text" id="name" name="name" ></p>
       </div>
 
       <div class="form-field">
-        <label for="email">メールアドレス <span>*</span></label>
-        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        <p class="form-label">メールアドレス <span>*</span></p>
+        <p class="form-text" id="email" name="email"></p>
       </div>
 
       <div class="form-field">
-        <label for="message">ご依頼内容 / ご希望内容 <span>*</span></label>
-        <textarea id="message" name="message" placeholder="ご依頼内容やご希望内容をご記入ください" required></textarea>
+        <p class="form-label">ご依頼内容 / ご希望内容 <span>*</span></p>
+        <p class="form-textarea" id="message" name="message"></p>
       </div>
-
-      <button type="submit" class="submit-button">お問い合わせを送信</button>
-    </form>
+      <?php the_content(); ?>
+    </div>
   </div>
 </section>
-
 
 
 <?php get_footer(); ?>

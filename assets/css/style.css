@@ -768,3 +768,109 @@ body{
     margin-bottom: 10px;
   }
 }
+
+/*************************************/
+/* CONTACT_CONFIRM */
+/*************************************/
+.form-label{
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  font-weight: 550;
+}
+.form-text,
+.form-textarea{
+  width: 100%;
+  border: 1px solid rgba(26,26,26,0.12);
+  background-color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  transition: all .3s;
+  min-height: 54px;
+}
+.form-textarea{
+  min-height: 170px;
+}
+.form-label span{
+  color: #D4183D;
+}
+/* CF7の要素を消す */
+.wpcf7 input:not([type="submit"]),
+.wpcf7 textarea {
+  display: none;
+}
+.hidden-fields-container{
+  display: none;
+}
+.wpcf7-form-control-wrap {
+  display: none !important;
+}
+.wpcf7-form br {
+  display: none;
+}
+.wpcf7-form p {
+  margin: 0;
+}
+.wpcf7-submit {
+  display: block !important;
+}
+.wpcf7-submit {
+  display: flex;
+  margin: 40px auto 0;
+  padding: 16px 36px;
+  background-color: #B8860B;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 8px;
+  align-items: center;
+  opacity: 1;
+  transition: all .3s;
+}
+.wpcf7-submit:hover{
+  opacity: .8;
+}
+
+/*************************************/
+/* CONTACT_THANKS */
+/*************************************/
+.contact-thanks{
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.contact-thanks-wrap{
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 16px 24px;
+  border: 1px solid #B8860B;
+  background-color: #fff;
+}
+.contact-thanks-message{
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+.contact-thanks-remarks{
+  font-size: 16px;
+  line-height: 24px;
+  color: #666;
+}
+.contact-thanks-btn{
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 40px auto 0;
+  padding: 16px 36px;
+  background-color: #B8860B;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 1;
+  transition: all .3s;
+}
+.contact-thanks-btn:hover{
+  opacity: .8;
+}

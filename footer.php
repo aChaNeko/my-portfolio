@@ -28,12 +28,7 @@
       <small class="footer-copyright">© 2026 Portfolio. All rights reserved.</small>
     </div>
   </footer>
-
-
-
-
-
-
+  
   <?php wp_footer(); ?>
 </body>
 </html>

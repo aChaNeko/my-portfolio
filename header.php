@@ -17,9 +17,12 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/header.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/footer.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/archive.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/single.css">
 
   <!-- JS -->
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/filter.js"></script>
 
   <?php wp_head(); ?>
 </head>
@@ -35,11 +38,11 @@
       <p><a href="<?php echo home_url(); ?>" class="header-title">Portfolio</a></p>
       <nav class="header-nav">
         <ul class="header-nav-list">
-          <li><a href="#top" class="header-nav-item nav-top is-selected">Top</a></li>
-          <li><a href="#about" class="header-nav-item nav-about">About</a></li>
-          <li><a href="#works" class="header-nav-item nav-works">Works</a></li>
-          <li><a href="#news" class="header-nav-item nav-blog">News</a></li>
-          <li><a href="#contact" class="header-nav-item nav-contact">Contact</a></li>
+          <li><a href="<?php echo esc_url( home_url('/#top') ); ?>" class="header-nav-item nav-top is-selected">Top</a></li>
+          <li><a href="<?php echo esc_url( home_url('/#about') ); ?>" class="header-nav-item nav-about">About</a></li>
+          <li><a href="<?php echo esc_url( home_url('/#works') ); ?>" class="header-nav-item nav-works">Works</a></li>
+          <li><a href="<?php echo esc_url( home_url('/#news') ); ?>" class="header-nav-item nav-blog">News</a></li>
+          <li><a href="<?php echo esc_url( home_url('/#contact') ); ?>" class="header-nav-item nav-contact">Contact</a></li>
         </ul>
       </nav>
     </div>

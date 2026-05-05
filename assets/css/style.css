@@ -62,7 +62,7 @@ body{
   line-height: 40px;
   font-weight: 550;
 }
-.archive-title-wrap{
+.list-title-wrap{
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -451,7 +451,7 @@ body{
 /* WORKS（スマホ） */
 /*************************************/
 @media (max-width: 768px){
-  .archive-title-wrap{
+  .list-title-wrap{
     margin-bottom: 12px;
     flex-direction: column;
     gap: 0;
@@ -474,15 +474,15 @@ body{
 
 
 /*************************************/
-/* BLOG */
+/* NEWS */
 /*************************************/
-#blog .section-title-wrap{
+#news .section-title-wrap{
   margin-bottom: 0;
 }
-.blog-list{
+.news-list{
   border-top: 1px solid rgba(26,26,26,0.12);
 }
-.blog-item{
+.news-item{
   display: flex;
   padding: 16px 24px;
   align-items: center;
@@ -491,33 +491,33 @@ body{
   background-color: #fff;
   transition: all .3s;
 }
-.blog-item:hover{
+.news-item:hover{
   background-color: rgba(248,249,251,0.3);
 }
-.blog-date{
+.news-date{
   display: block;
   width: 120px;
   font-size: 14px;
   line-height: 20px;
   color: #666;
 }
-.blog-item:hover .blog-date{
+.news-item:hover .news-date{
   color: #B8860B;
 }
-.blog-title{
+.news-title{
   width: calc(100% - 120px - 24px - 24px - 200px);
   font-size: 16px;
   line-height: 24px;
   color: #1a1a1a;
   transition: all .3s;
 }
-.blog-item:hover .blog-title{
+.news-item:hover .news-title{
   color: #B8860B;
 }
-.blog-genre{
+.news-genre{
   width: 200px;
 }
-.blog-genre span{
+.news-genre span{
   padding: 4px 8px;
   font-size: 12px;
   line-height: 16px;
@@ -527,22 +527,22 @@ body{
 
 
 /*************************************/
-/* BLOG（スマホ） */
+/* NEWS（スマホ） */
 /*************************************/
 @media (max-width: 768px){
-  #blog .section-title-wrap{
+  #news .section-title-wrap{
     width: 100%;
   }
-  .blog-item{
+  .news-item{
     display: block;
     padding: 12px;
   }
-  .blog-date,
-  .blog-title{
+  .news-date,
+  .news-title{
     width: 100%;
     margin-bottom: 4px;
   }
-  .blog-genre span{
+  .news-genre span{
     width: 100%;
   }
 }

@@ -7,8 +7,8 @@
       <p class="top-text">わかりやすく、心地よいWebサービスを<br class="sp-only">創造します。</p>
     </div>
     <nav class="top-nav">
-      <a href="#" class="top-nav-btn primary">お問い合わせ</a>
-      <a href="#" class="top-nav-btn secondary">作品を見る</a>
+      <a href="#contact" class="top-nav-btn primary">お問い合わせ</a>
+      <a href="#works" class="top-nav-btn secondary">作品を見る</a>
     </nav>
   </div>
   <div class="top-scroll-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/scroll.png" alt="スクロール"></div>
@@ -96,7 +96,7 @@
 <!-- WORSK -->
 <section class="works" id="works">
   <div class="section-inner">
-    <div class="archive-title-wrap">
+    <div class="list-title-wrap">
       <div class="section-title-wrap">
         <div class="section-subtitle-wrap">
           <div class="section-subtitle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_title.png" alt="タイトルロゴ"></div>
@@ -104,7 +104,7 @@
         </div>
         <h2 class="section-title">私の作品</h2>
       </div>
-      <a href="#" class="archive-link-btn">すべて見る</a>
+      <a href="<?php echo esc_url( home_url('/works/') ); ?>" class="archive-link-btn">すべて見る</a>
     </div>
     <ul class="works-list">
       <li>
@@ -132,53 +132,53 @@
   </div>
 </section>
 
-<!-- BLOG -->
-<section class="blog" id="blog">
+<!-- NEWS -->
+<section class="news" id="news">
   <div class="section-inner">
-    <div class="archive-title-wrap">
+    <div class="list-title-wrap">
       <div class="section-title-wrap">
         <div class="section-subtitle-wrap">
           <div class="section-subtitle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_title.png" alt="タイトルロゴ"></div>
-          <p class="section-subtitle">BLOG</p>
+          <p class="section-subtitle">NEWS</p>
         </div>
         <h2 class="section-title">お知らせ</h2>
       </div>
-      <a href="#" class="archive-link-btn">すべて見る</a>
+      <a href="<?php echo esc_url( home_url('/news/') ); ?>" class="archive-link-btn">すべて見る</a>
     </div>
-    <ul class="blog-list">
+    <ul class="news-list">
       <li>
-        <a href="" class="blog-item">
-          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
-          <p class="blog-title">2024年のデザイントレンド</p>
-          <div class="blog-genre"><span>Design</span></div>
+        <a href="" class="news-item">
+          <time datetime="2026-04-01" class="news-date">2026-04-01</time>
+          <p class="news-title">2024年のデザイントレンド</p>
+          <div class="news-genre"><span>Design</span></div>
         </a>
       </li>
       <li>
-        <a href="" class="blog-item">
-          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
-          <p class="blog-title">2024年のデザイントレンド</p>
-          <div class="blog-genre"><span>Design</span></div>
+        <a href="" class="news-item">
+          <time datetime="2026-04-01" class="news-date">2026-04-01</time>
+          <p class="news-title">2024年のデザイントレンド</p>
+          <div class="news-genre"><span>Design</span></div>
         </a>
       </li>
       <li>
-        <a href="" class="blog-item">
-          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
-          <p class="blog-title">2024年のデザイントレンド</p>
-          <div class="blog-genre"><span>Design</span></div>
+        <a href="" class="news-item">
+          <time datetime="2026-04-01" class="news-date">2026-04-01</time>
+          <p class="news-title">2024年のデザイントレンド</p>
+          <div class="news-genre"><span>Design</span></div>
         </a>
       </li>
       <li>
-        <a href="" class="blog-item">
-          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
-          <p class="blog-title">2024年のデザイントレンド</p>
-          <div class="blog-genre"><span>Design</span></div>
+        <a href="" class="news-item">
+          <time datetime="2026-04-01" class="news-date">2026-04-01</time>
+          <p class="news-title">2024年のデザイントレンド</p>
+          <div class="news-genre"><span>Design</span></div>
         </a>
       </li>
       <li>
-        <a href="" class="blog-item">
-          <time datetime="2026-04-01" class="blog-date">2026-04-01</time>
-          <p class="blog-title">2024年のデザイントレンド</p>
-          <div class="blog-genre"><span>Design</span></div>
+        <a href="" class="news-item">
+          <time datetime="2026-04-01" class="news-date">2026-04-01</time>
+          <p class="news-title">2024年のデザイントレンド</p>
+          <div class="news-genre"><span>Design</span></div>
         </a>
       </li>
     </ul>

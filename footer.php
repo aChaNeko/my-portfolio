@@ -17,11 +17,11 @@
         <div class="footer-links-wrap">
           <p class="footer-links-title">Quick Links</p>
           <ul class="footer-links-list">
-            <li><a href="#top" class="footer-links-item">Top</a></li>
-            <li><a href="#about" class="footer-links-item">About</a></li>
-            <li><a href="#works" class="footer-links-item">Works</a></li>
-            <li><a href="#blog" class="footer-links-item">Blog</a></li>
-            <li><a href="#contact" class="footer-links-item">Contact</a></li>
+            <li><a href="<?php echo esc_url( home_url('/#top') ); ?>" class="footer-links-item">Top</a></li>
+            <li><a href="<?php echo esc_url( home_url('/#about') ); ?>" class="footer-links-item">About</a></li>
+            <li><a href="<?php echo esc_url( home_url('/#works') ); ?>" class="footer-links-item">Works</a></li>
+            <li><a href="<?php echo esc_url( home_url('/#blog') ); ?>" class="footer-links-item">Blog</a></li>
+            <li><a href="<?php echo esc_url( home_url('/#contact') ); ?>" class="footer-links-item">Contact</a></li>
           </ul>
         </div>
       </div>
